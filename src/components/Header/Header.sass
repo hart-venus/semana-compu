@@ -1,5 +1,27 @@
 @import '../../../styles/variables.sass'
 
 .header 
-    background-color: $color1
+    background-image: url('/backgroundGradient.svg')
+    background-size: cover
     height: 16%
+    width: 90%
+    padding: 0 5%
+    border-bottom: 8px solid $text
+    display: flex
+    color: $text
+    justify-content: space-between
+    align-items: center
+
+.logo 
+    max-height: 100%
+
+.text 
+    h1     
+        font-family: $headerFont
+        font-size: 3rem
+        line-height: 0.4
+    h2
+        font-weight: 100 
+        font-family: $headerFont
+        line-height: 0.4
+        font-size: 1.8rem
