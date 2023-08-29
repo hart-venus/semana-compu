@@ -4,6 +4,7 @@ interface Props {
 }
 
 const { title } = Astro.props;
+import './Layout.sass';
 ---
 
 <!DOCTYPE html>
@@ -20,6 +21,4 @@ const { title } = Astro.props;
 		<slot />
 	</body>
 </html>
-<style is:global>
-	
-</style>
+
