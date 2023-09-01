@@ -1,8 +1,10 @@
+@import '../../../styles/variables.sass'
 .dashboard-grid 
+
     display: grid
     padding: 2%
     width: 95%
-    height: 95%
+    height: 100%
     grid-gap: 2%
     grid-template-columns: 2fr 1fr
     div 
@@ -17,10 +19,22 @@
     :nth-child(2), :nth-child(3)
         grid-column: 2 / 3
     :nth-child(3)
-        grid-row: 1 / 4
+        grid-row: 3 / 5
+    :nth-child(2)
+        grid-row: 1 / 3
+
+.dashboard-grid > div:hover
+    border: 4px solid $text
+    // drop shadow
+    box-shadow: 0px 0px 10px 0px $text
+
+.dashboard-grid > div 
+    // animation for height 
+    transition: border 0.1s ease-in-out
 
 @media (max-width: 768px)
     .dashboard-grid
+        min-height: 800px
         grid-template-columns: 1fr
         :nth-child(1)
             grid-column: 1 / 2
@@ -30,4 +44,38 @@
             grid-row: 4 / 6
         :nth-child(3)
             grid-column: 1 / 2
-            grid-row: 6 / 7
+            grid-row: 6 / 8
+
+div.main
+    background-color: #dff5ff
+
+div.main::after
+    content: ''
+    position: relative
+    width: 103px
+    height: 86px
+    display: block
+
+    right: 20px
+    top: 20px
+
+    background-image: url('/snake.svg')
+    background-size: cover
+div.coming-up::after
+    content: ''
+    position: relative
+    width: 120px
+    height: 92px
+    display: block
+    left: calc(100% - 120px)
+    top: calc(100% - 80px)
+    background-image: url('/computin.svg')
+    background-size: cover
+
+div.coming-up 
+    background-color: $color6
+
+div.links 
+    background-color: #2e163f 
+
+    
