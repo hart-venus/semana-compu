@@ -1,0 +1,15 @@
+---
+import { Icon } from 'astro-icon'
+import './LinkIcon.sass'
+interface Props {
+  icono: string
+  nombre: string
+  link: string
+}
+
+const { icono, link } = Astro.props 
+---
+
+<a class="link-icon" href={ link } target="_blank">
+    <Icon name={ icono } />
+</a>

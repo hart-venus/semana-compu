@@ -1,0 +1,24 @@
+---
+import './LinksCard.sass'
+import LinkIcon from '../LinkIcon/LinkIcon.astro';
+import redes from '../../../public/json/redes.json'
+---
+
+<div class='actual-links-card'>
+    <div class="text-container">
+        
+        <p class="msj">
+            ¡Te esperamos! 
+        </p>
+        <p class='subtext'>
+            Síguenos en redes para más información
+        </p>
+    </div>
+    <div class="links-container">
+        {
+        redes.map((red) => (
+            <LinkIcon {...red} />
+        ))
+        }
+    </div>
+</div>

@@ -1,10 +1,13 @@
 ---
 import './Dashboard.sass'
+import LinksCard from '../LinksCard/LinksCard.astro'
 ---
 
 <div class='dashboard-grid'>
 
-  <div class="main"></div>
-  <div class="coming-up"></div>
-  <div class="links"></div>
+  <div class="main card"></div>
+  <div class="coming-up card"></div>
+  <div class="links card">
+    <LinksCard />
+  </div>
 </div>

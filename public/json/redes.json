@@ -1,0 +1,27 @@
+[
+    {
+        "nombre": "Facebook",
+        "icono": "ic:baseline-facebook",
+        "link": "https://www.facebook.com/asodec/"
+    },
+    {
+        "nombre": "Telegram",
+        "icono": "ic:baseline-telegram",
+        "link": "https://t.me/asodec"
+    },
+    {
+        "nombre": "Twitter",
+        "icono": "ant-design:twitter-circle-filled",
+        "link": "https://twitter.com/asodec"
+    },
+    {
+        "nombre": "Instagram",
+        "icono": "uil:instagram-alt",
+        "link": "https://www.instagram.com/asodec_itcr/"
+    },
+    {
+        "nombre": "Código fuente",
+        "icono": "mdi:github",
+        "link": "https://github.com/hart-venus/semana-compu/"
+    }
+]
