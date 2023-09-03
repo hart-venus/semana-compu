@@ -1,0 +1,12 @@
+---
+import './MainCard.sass'
+import eventos from '../../../public/json/eventos.json'
+import EventCard from '../EventCard/EventCard.astro'
+---
+
+<div class="events-card">
+    {eventos.map((evento) => (
+        <EventCard {...evento} />
+    ))
+    }
+</div>

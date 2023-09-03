@@ -11,14 +11,14 @@
         "icono": "ri:switch-fill"
     },
     {
-        "nombre": "Charla - Akurey: Red de Desarrollo Económico en blockchain",
+        "nombre": "Akurey: Red de Desarrollo Económico en blockchain",
         "horainicio": "15:00",
         "horafin": "16:50",
         "fecha": "2023-09-05",
         "descripcion": "Rodrigo Nuñez Nuñez nos hablará sobre oportunidades de desarrollo económico utilizando tecnologías blockchain.",
         "lugar": "B6",
-        "color1": "#ff66de",
-        "color2": "#aeff50",
+        "color1": "#8efc22",
+        "color2": "#0068ff",
         "icono": "akurey"
     },
     {
@@ -28,12 +28,23 @@
         "fecha": "2023-09-06",
         "descripcion": "Aprende a hacer tu propia tote bag. ¡No te lo pierdas!",
         "lugar": "Por confirmar",
-        "color1": "#ffdbb3",
-        "color2": "#caffde",
+        "color1": "#330065",
+        "color2": "#2eb8a5",
         "icono": "subway:bag"
     },
     {
-        "nombre": "Charla - Konrad: Intro a QA",
+        "nombre": "Torneo de Ping Pong",
+        "horainicio": "13:00",
+        "horafin": "14:50",
+        "fecha": "2023-09-06",
+        "descripcion": "¡Participa en el torneo de ping pong y demuestra tus habilidades!",
+        "lugar": "Por confirmar",
+        "color1": "#fdbb2d",
+        "color2": "#22c1c3",
+        "icono": "emojione-monotone:ping-pong"
+    },
+    {
+        "nombre": "Konrad: Intro a QA",
         "horainicio": "13:00",
         "horafin": "15:50",
         "fecha": "2023-09-06",
@@ -55,7 +66,7 @@
         "icono": "ri:playstation-fill"
     },
     {
-        "nombre": "Charla - P&G: Mujeres en Tecnología 101",
+        "nombre": "P&G: Mujeres en Tecnología 101",
         "horainicio": "16:00",
         "horafin": "18:50",
         "fecha": "2023-09-07",
@@ -66,7 +77,7 @@
         "icono": "p&g"
     },
     {
-        "nombre": "Charla - Gravitas Consulting: Análisis de Negocios y Computación",
+        "nombre": "Gravitas Consulting: Análisis de Negocios y Computación",
         "horainicio": "13:00",
         "horafin": "15:50",
         "fecha": "2023-09-08",
@@ -74,7 +85,7 @@
         "lugar": "B6",
         "color1": "#894949",
         "color2": "#e187dd",
-        "icono": "tabler:businessplan"
+        "icono": "ion:business"
     },
 
     {

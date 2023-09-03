@@ -1,0 +1,42 @@
+---
+import { Icon } from 'astro-icon'
+// import sass
+import './EventCard.sass'
+
+// props
+interface Props {
+    "nombre": string
+    "horainicio": string
+    "horafin": string
+    "fecha": string
+    "lugar": string
+    "descripcion": string
+    "color1": string
+    "color2": string
+    "icono": string
+}
+const turnIntoDate = (date: string) => {
+    const dateType = new Date(date)
+    // convert to UTC
+    dateType.setHours(dateType.getHours() + dateType.getTimezoneOffset() / 60)
+    // format
+    return dateType.toLocaleDateString('es-ES', { weekday: 'short', day: 'numeric' })
+}
+const { nombre, horainicio, horafin, fecha, lugar, descripcion, icono, color1, color2} = Astro.props
+---
+<style define:vars={{ color1, color2 }}>
+    .event-card {
+        background: radial-gradient(farthest-side at 0% 100%, var(--color1) 0%, var(--color2) 100%);
+    }
+</style>
+<div class="event-card">
+        
+    <h1> {nombre} </h1>
+    <p class="date"> {turnIntoDate(fecha)} {horainicio}-{horafin} <strong>{lugar}</strong></p>
+    <p> {descripcion} </p>
+    
+    <Icon name={icono} />
+</div>
+
+
+
