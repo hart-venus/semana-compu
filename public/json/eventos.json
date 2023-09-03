@@ -1,0 +1,104 @@
+[
+    {
+        "nombre": "Torneo de Nintendo",
+        "horainicio": "9:30",
+        "horafin": "12:20",
+        "fecha": "2023-09-05",
+        "descripcion": "Disfruta y compite este martes en el torneo de Nintendo, con partidas de Mario Kart y Super Smash Bros. ¡No te lo pierdas!",
+        "lugar": "B6",
+        "color1": "#ff3a6b",
+        "color2": "#ffa292",
+        "icono": "ri:switch-fill"
+    },
+    {
+        "nombre": "Charla - Akurey: Red de Desarrollo Económico en blockchain",
+        "horainicio": "15:00",
+        "horafin": "16:50",
+        "fecha": "2023-09-05",
+        "descripcion": "Rodrigo Nuñez Nuñez nos hablará sobre oportunidades de desarrollo económico utilizando tecnologías blockchain.",
+        "lugar": "B6",
+        "color1": "#ff66de",
+        "color2": "#aeff50",
+        "icono": "akurey"
+    },
+    {
+        "nombre": "Taller de Tote Bags",
+        "horainicio": "09:30",
+        "horafin": "12:20",
+        "fecha": "2023-09-06",
+        "descripcion": "Aprende a hacer tu propia tote bag. ¡No te lo pierdas!",
+        "lugar": "Por confirmar",
+        "color1": "#ffdbb3",
+        "color2": "#caffde",
+        "icono": "subway:bag"
+    },
+    {
+        "nombre": "Charla - Konrad: Intro a QA",
+        "horainicio": "13:00",
+        "horafin": "15:50",
+        "fecha": "2023-09-06",
+        "descripcion": "Konrad nos hablará sobre la importancia de QA en el desarrollo de software.",
+        "lugar": "B6",
+        "color1": "#ffe63e",
+        "color2": "#6c4500",
+        "icono": "konrad"
+    },
+    {
+        "nombre": "Torneo de PlayStation",
+        "horainicio": "09:30",
+        "horafin": "12:20",
+        "fecha": "2023-09-07",
+        "descripcion": "Disfruta y compite este martes en el torneo de PlayStation, con batallas en Mortal Kombat. ¡No te lo pierdas!",
+        "lugar": "B6",
+        "color1": "#262626",
+        "color2": "#0617c9",
+        "icono": "ri:playstation-fill"
+    },
+    {
+        "nombre": "Charla - P&G: Mujeres en Tecnología 101",
+        "horainicio": "16:00",
+        "horafin": "18:50",
+        "fecha": "2023-09-07",
+        "descripcion": "Catalina Sánchez nos hablará sobre la importancia de la mujer en el mundo de la tecnología.",
+        "lugar": "B6",
+        "color1": "#0266d8",
+        "color2": "#afcfe6",
+        "icono": "p&g"
+    },
+    {
+        "nombre": "Charla - Gravitas Consulting: Análisis de Negocios y Computación",
+        "horainicio": "13:00",
+        "horafin": "15:50",
+        "fecha": "2023-09-08",
+        "descripcion": "Jorge Mora nos hablará sobre el Análisis de Negocios y su relación con la Computación.",
+        "lugar": "B6",
+        "color1": "#894949",
+        "color2": "#e187dd",
+        "icono": "tabler:businessplan"
+    },
+
+    {
+        "nombre": "CTF - Capture the Flag",
+        "horainicio": "17:00",
+        "horafin": "19:50",
+        "fecha": "2023-09-08",
+        "descripcion": "¡Participa en el CTF y demuestra tus habilidades en seguridad informática!",
+        "lugar": "B3",
+        "color1": "#ffae09",
+        "color2": "#205a47",
+        "icono": "ant-design:flag-filled"
+    },
+    {
+        "nombre": "Noche de Karaoke",
+        "horainicio": "19:00",
+        "horafin": "21:50",
+        "fecha": "2023-09-08",
+        "descripcion": "¡Ven y disfruta de una noche de karaoke con tus amigos!",
+        "lugar": "Perro's Bar",
+        "color1": "#330065",
+        "color2": "#630040",
+        "icono": "maki:karaoke"
+    }
+
+
+]
