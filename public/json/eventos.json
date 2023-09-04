@@ -16,29 +16,18 @@
         "horafin": "16:50",
         "fecha": "2023-09-05",
         "descripcion": "Rodrigo Nuñez Nuñez nos hablará sobre oportunidades de desarrollo económico utilizando tecnologías blockchain.",
-        "lugar": "B6",
+        "lugar": "Auditorio D3",
         "color1": "#8efc22",
         "color2": "#0068ff",
         "icono": "akurey"
-    },
-    {
-        "nombre": "Taller de Tote Bags",
-        "horainicio": "09:30",
-        "horafin": "12:20",
-        "fecha": "2023-09-06",
-        "descripcion": "Aprende a hacer tu propia tote bag. ¡No te lo pierdas!",
-        "lugar": "Por confirmar",
-        "color1": "#330065",
-        "color2": "#2eb8a5",
-        "icono": "subway:bag"
-    },
+    }, 
     {
         "nombre": "Torneo de Ping Pong",
         "horainicio": "13:00",
         "horafin": "14:50",
         "fecha": "2023-09-06",
         "descripcion": "¡Participa en el torneo de ping pong y demuestra tus habilidades!",
-        "lugar": "Por confirmar",
+        "lugar": "B3",
         "color1": "#fdbb2d",
         "color2": "#22c1c3",
         "icono": "emojione-monotone:ping-pong"
@@ -49,7 +38,7 @@
         "horafin": "15:50",
         "fecha": "2023-09-06",
         "descripcion": "Konrad nos hablará sobre la importancia de QA en el desarrollo de software.",
-        "lugar": "B6",
+        "lugar": "Auditorio D3",
         "color1": "#ffe63e",
         "color2": "#6c4500",
         "icono": "konrad"
@@ -71,18 +60,18 @@
         "horafin": "18:50",
         "fecha": "2023-09-07",
         "descripcion": "Catalina Sánchez nos hablará sobre la importancia de la mujer en el mundo de la tecnología.",
-        "lugar": "B6",
+        "lugar": "Biblioteca",
         "color1": "#0266d8",
         "color2": "#afcfe6",
         "icono": "p&g"
     },
     {
-        "nombre": "Gravitas Consulting: Análisis de Negocios y Computación",
+        "nombre": "Gravitas Consulting: Machine Learning y su Aplicación a los Negocios",
         "horainicio": "13:00",
         "horafin": "15:50",
         "fecha": "2023-09-08",
         "descripcion": "Jorge Mora nos hablará sobre el Análisis de Negocios y su relación con la Computación.",
-        "lugar": "B6",
+        "lugar": "Auditorio D3",
         "color1": "#894949",
         "color2": "#e187dd",
         "icono": "ion:business"
@@ -90,8 +79,8 @@
 
     {
         "nombre": "CTF - Capture the Flag",
-        "horainicio": "17:00",
-        "horafin": "19:50",
+        "horainicio": "07:00",
+        "horafin": "17:30",
         "fecha": "2023-09-08",
         "descripcion": "¡Participa en el CTF y demuestra tus habilidades en seguridad informática!",
         "lugar": "B3",

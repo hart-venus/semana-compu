@@ -1,12 +1,45 @@
 ---
-import './MainCard.sass'
 import eventos from '../../../public/json/eventos.json'
 import EventCard from '../EventCard/EventCard.astro'
+
 ---
 
-<div class="events-card">
-    {eventos.map((evento) => (
-        <EventCard {...evento} />
-    ))
+  <swiper-container class="mySwiper" space-between="30" slides-per-view="auto" pagination="true"
+    pagination-clickable="true"
+    centered-slides="true"
+    effect="cards"
+    cards-effect-per-slide-offset="50"
+    cards-effect-slide-shadows="false"
+    perSlideRotate="10"
+    autoplay-delay="2400"
+    autoplay-disable-on-interaction="false"
+    >
+        {eventos.map((evento) => {
+            return <swiper-slide>
+                <EventCard {...evento} />
+            </swiper-slide>
+        })}
+
+  </swiper-container>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+
+<style>
+
+    swiper-container { 
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
     }
-</div>
+
+    swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        width: fit-content;
+        height: 100%;
+    }
+    
+
+</style>
