@@ -1,0 +1,37 @@
+---
+
+import './TodayCard.sass'
+import eventos from '../../../public/json/eventos.json'
+
+const filterEvents = (events) => {
+    const today = new Date('2023-09-08')
+    // sync with UTC with current timezone offset
+    today.setHours(today.getHours() - today.getTimezoneOffset() / 60)
+    console.log(today)
+    const todayEvents = events.filter(event => {
+        const eventDate = new Date(event.fecha)
+        // sync with UTC with current timezone offset
+        eventDate.setHours(eventDate.getHours() - eventDate.getTimezoneOffset() / 60)
+        return eventDate.getDate() === today.getDate() 
+    })
+    return todayEvents
+}
+
+const todayEvents = filterEvents(eventos)
+console.log(todayEvents)
+---
+
+<div class="today-card">
+    <h1>
+        HOY
+    </h1>
+    <ul>
+        {todayEvents.map(event => (
+            <li>
+                <a>
+                    {event.nombre}
+                </a>
+            </li>
+        ))}
+    </ul>
+</div>

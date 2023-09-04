@@ -2,7 +2,6 @@
 .dashboard-grid 
 
     display: grid
-    overflow-y: hidden
     padding: 2%
     width: 95%
     height: 100%
@@ -35,7 +34,7 @@
 
 @media (max-width: 768px)
     .dashboard-grid
-        min-height: 800px
+        min-height: 900px
         grid-template-columns: 1fr
         grid-template-rows: 3fr 2fr 1fr
         :nth-child(1)
@@ -75,9 +74,9 @@ div.coming-up::after
     position: relative
     width: 120px
     height: 92px
-    display: block
+    display: inline-block 
     left: calc(100% - 120px)
-    top: calc(100% - 80px)
+    top: 80px
     background-image: url('/computin.svg')
     background-size: cover
 
