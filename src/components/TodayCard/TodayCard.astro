@@ -4,7 +4,7 @@ import './TodayCard.sass'
 import eventos from '../../../public/json/eventos.json'
 
 const filterEvents = (events) => {
-    const today = new Date('2023-09-08')
+    const today = new Date()
     // sync with UTC with current timezone offset
     today.setHours(today.getHours() - today.getTimezoneOffset() / 60)
     console.log(today)
@@ -16,7 +16,14 @@ const filterEvents = (events) => {
     })
     return todayEvents
 }
-
+const shortName = (name) => {
+    // returns the first 15 characters of the name
+    // if the name is longer than 15 characters, adds '...'
+    if (name.length > 32) {
+        return name.slice(0, 32) + '...'
+    }
+    return name
+}
 const todayEvents = filterEvents(eventos)
 console.log(todayEvents)
 ---
@@ -25,13 +32,13 @@ console.log(todayEvents)
     <h1>
         HOY
     </h1>
-    <ul>
+    <div class="events-today">
         {todayEvents.map(event => (
-            <li>
-                <a>
-                    {event.nombre}
-                </a>
-            </li>
+            <div class="event-today">
+                <h2> {shortName(event.nombre)} </h2>
+                <p> {event.horainicio} - {event.horafin} </p> 
+                <p> {event.lugar} </p>
+            </div>
         ))}
-    </ul>
+    </div>
 </div>

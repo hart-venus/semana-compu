@@ -34,7 +34,7 @@
 
 @media (max-width: 768px)
     .dashboard-grid
-        min-height: 900px
+        min-height: 1100px
         grid-template-columns: 1fr
         grid-template-rows: 3fr 2fr 1fr
         :nth-child(1)
@@ -69,14 +69,15 @@ div.main::after
 
     background-image: url('/snake.svg')
     background-size: cover
-div.coming-up::after
+div.links::after
     content: ''
     position: relative
-    width: 120px
-    height: 92px
-    display: inline-block 
-    left: calc(100% - 120px)
-    top: 80px
+    width: 142px
+    display: inline-block
+    height: 108px
+    top : -10%
+    left: 60%
+    z-index: 30
     background-image: url('/computin.svg')
     background-size: cover
 
@@ -85,5 +86,6 @@ div.coming-up
 
 div.links 
     background-color: #2e163f 
+    max-height: 30vh
 
     
